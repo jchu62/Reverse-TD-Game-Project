@@ -1,1 +1,5 @@
+res://Enemies/Mook1.tscn
+res://Scripts/Mook1.gd
 res://main.tscn
+res://Tiles/TileMap.tscn
+res://Scenes/node_2d.tscn
