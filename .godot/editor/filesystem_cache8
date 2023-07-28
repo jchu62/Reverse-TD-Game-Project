@@ -1,7 +1,7 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1689805251
+::res://::1690511768
 icon.svg::CompressedTexture2D::5860363900598623247::1689010214::1689804347::1::::<><>::
-main.tscn::PackedScene::8577586335555435741::1689712581::0::1::::<><>::uid://dnuca46wfcxwv::::res://Tiles/TileMap.tscn
+main.tscn::PackedScene::8577586335555435741::1689883802::0::1::::<><>::uid://dnuca46wfcxwv::::res://Tiles/TileMap.tscn<>uid://bnmx77tp5ognd::::res://Enemies/Mook1.tscn
 ::res://Assets/::1689022977
 License.txt::TextFile::-1::1469820576::0::1::::<><>::
 Preview.png::CompressedTexture2D::5280988731472262709::1469821128::1689022977::1::::<><>::
@@ -613,12 +613,12 @@ towerDefense_tilesheet.png::CompressedTexture2D::4102105125989294239::1469820180
 towerDefense_tilesheet@2.png::CompressedTexture2D::1346225420747540423::1469822014::1689022978::1::::<><>::
 ::res://Assets/Vector/::1689804348
 towerDefense_vector.svg::CompressedTexture2D::4664495845607762386::1469820644::1689804348::1::::<><>::
-::res://Enemies/::1689805269
-Mook1.tscn::PackedScene::3325103531095492293::1689805269::0::1::::<><>::uid://ce7niiw1jsm11::::res://Assets/PNG/Default size/towerDefense_tile245.png
-Mook1.gd::GDScript::-1::1689805345::0::1::::<>CharacterBody2D<>::
-::res://Scenes/::1689711556
-node_2d.tscn::PackedScene::8068502049788625079::1689711556::0::1::::<><>::uid://bypdcpl22mahb
+::res://Enemies/::1689883802
+Mook1.tscn::PackedScene::3325103531095492293::1689883802::0::1::::<><>::res://Scripts/Mook1.gd<>uid://ce7niiw1jsm11::::res://Assets/PNG/Default size/towerDefense_tile245.png
+::res://Scenes/::1689883802
+node_2d.tscn::PackedScene::8068502049788625079::1689883802::0::1::::<><>::uid://bypdcpl22mahb::::res://Assets/Tilesheet/towerDefense_tilesheet.png
 ::res://Scenes/TileMap/::1689025085
-::res://Scripts/::1689022911
-::res://Tiles/::1689711556
-TileMap.tscn::PackedScene::8113127579512910653::1689711556::0::1::::<><>::uid://bypdcpl22mahb
+::res://Scripts/::1689805631
+Mook1.gd::GDScript::-1::1689805631::0::1::::<>CharacterBody2D<>::
+::res://Tiles/::1689883802
+TileMap.tscn::PackedScene::8113127579512910653::1689883802::0::1::::<><>::uid://bypdcpl22mahb::::res://Assets/Tilesheet/towerDefense_tilesheet.png
