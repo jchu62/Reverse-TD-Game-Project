@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://duhbugmts3r3b"]
 
 [ext_resource type="PackedScene" uid="uid://dnuca46wfcxwv" path="res://Tiles/TileMap.tscn" id="1_msh0h"]
-[ext_resource type="PackedScene" uid="uid://bnmx77tp5ognd" path="res://Enemies/Mook1.tscn" id="2_2vdc2"]
+[ext_resource type="PackedScene" uid="uid://bnmx77tp5ognd" path="res://Units/GreenUnit.tscn" id="2_2vdc2"]
 
 [sub_resource type="Curve2D" id="Curve2D_hbwp7"]
 _data = {

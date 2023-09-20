@@ -2,3 +2,9 @@ res://main.tscn
 res://Tiles/TileMap.tscn
 res://Scenes/node_2d.tscn
 res://Enemies/Mook1.tscn
+res://Units/Mook1.tscn
+res://Towers/missile.tscn
+res://MissileLauncher.gd
+res://Scripts/GreenUnit.gd
+res://Scripts/Unit.gd
+res://Towers/missile_launcher.tscn

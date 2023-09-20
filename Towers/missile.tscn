@@ -1,0 +1,26 @@
+[gd_scene load_steps=5 format=3 uid="uid://cfa1ei0ycj5lv"]
+
+[ext_resource type="Texture2D" uid="uid://cmhmgf6nvjmxt" path="res://Assets/PNG/Retina/towerDefense_tile251.png" id="1_oe7g8"]
+[ext_resource type="Script" path="res://Towers/missile.gd" id="1_y4gha"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_u18uv"]
+radius = 13.0
+height = 78.0
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_v416m"]
+radius = 19.0
+height = 92.0
+
+[node name="Missile" type="CharacterBody2D"]
+script = ExtResource("1_y4gha")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_u18uv")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_oe7g8")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("CapsuleShape2D_v416m")
