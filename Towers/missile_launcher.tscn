@@ -7,7 +7,7 @@
 radius = 300.0
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_vx2fc"]
-size = Vector2(86, 111)
+size = Vector2(44, 57)
 
 [node name="MissileLauncher" type="StaticBody2D"]
 script = ExtResource("1_jwnlq")
@@ -23,10 +23,11 @@ shape = SubResource("CircleShape2D_uvxpp")
 [node name="Node" type="Node" parent="."]
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.5, 0.5)
 texture = ExtResource("2_42su2")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, 1.5)
+position = Vector2(0, 0.5)
 shape = SubResource("RectangleShape2D_vx2fc")
 
 [connection signal="body_entered" from="DetectionRadius" to="." method="_on_detection_radius_body_entered"]

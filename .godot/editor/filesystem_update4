@@ -8,3 +8,5 @@ res://MissileLauncher.gd
 res://Scripts/GreenUnit.gd
 res://Scripts/Unit.gd
 res://Towers/missile_launcher.tscn
+res://Units/GreenUnit.tscn
+res://Scripts/Tower.gd
